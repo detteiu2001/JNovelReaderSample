@@ -73,10 +73,12 @@
                     "setVariable" : [
                         {
                             "position" : 1,
+                            "doOperator" : "=",
                             "variable" : "FIRST_NAME"
                         },
                         {
                             "position" : 2,
+                            "doOperator" : "=",
                             "variable" : "LAST_NAME"
                         }
                     ],
