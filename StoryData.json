@@ -1,0 +1,98 @@
+[
+    {
+        "isShowMessageWindow": true,
+        "message": "初めまして！",
+        "messageSize": 12,
+        "messageColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0
+        },
+        "messageColorSet": "Black",
+        "isShowSpeakerText": true,
+        "Speaker": "sampleTaro",
+        "isShowSpeakerIcon": true,
+        "SpeakerIcon": "sampleFace1",
+        "image": [
+            {
+                "action": "add",
+                "id": "sampleTaro",
+                "position": 3,
+                "isFlip": false
+            }
+        ],
+        "backgroundImage": "background1",
+        "BGM": "BGM1"
+    },
+    {
+        "message": "名前を教えてくれるかな！？",
+        "image": [
+            {
+                "action": "move",
+                "id": "sampleTachie1",
+                "position": 4,
+                "isFlip": false
+            },
+            {
+                "action": "add",
+                "id": "sampleTachie2",
+                "position": 2,
+                "isFlip": true
+            }
+        ]
+    },
+    {
+        "isShowMessageWindow" : false,
+        "image": [
+            {
+                "action": "move",
+                "id": "sampleTachie1",
+                "position" : 6
+            },
+            {
+                "action": "remove",
+                "id": "sampleTachie2"
+            }
+        ],
+        "input": [
+            {
+                "form" : "text",
+                "label" : "上の名前",
+                "position" : 1
+            },
+            {
+                "form" : "text",
+                "label" : "下の名前",
+                "position" : 2
+            },
+            {
+                "form" : "button",
+                "position" : 5,
+                "label" : "確定",
+                "action" : {
+                    "setVariable" : [
+                        {
+                            "position" : 1,
+                            "variable" : "FIRST_NAME"
+                        },
+                        {
+                            "position" : 2,
+                            "variable" : "LAST_NAME"
+                        }
+                    ],
+                    "goto" : "confirmName"
+                }
+            }
+        ],
+        "isLockScreen" : true
+    },
+    {
+        "indexLabel" : "confirmName",
+        "isShowMessageWindow" : true,
+        "message" : "ありがとう、よろしくね#LAST_NAME#！"
+    },
+    {
+        "message" : "\nそしてこのメッセージは続きだよ",
+        "isKeep" : true
+    }
+]

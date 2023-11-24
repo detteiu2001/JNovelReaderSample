@@ -1,0 +1,110 @@
+{
+    "characterData" : [
+        {
+            "id" : "sampleTaro",
+            "name" : "三布流　太郎",
+            "description" : "サンプルのために生まれてきた存在。最近体重が増えてきたが、冬毛だと言い張っている",
+            "color" : {
+                "red" : 1,
+                "greed" : 0.5,
+                "blue" : 0
+            }
+        },
+        {
+            "id" : "sampleJiro",
+            "name" : "三布流　二郎",
+            "description" : "サンプルのために生まれてきた存在。兄がものを食べる姿が好きで、料理の腕を上げた",
+            "colorSet" : "Indigo"
+        },
+        {
+            "id" : "testYusuke",
+            "name" : "思軒　雄介"
+        }
+    ],
+    "variable" : [
+        {
+            "string" : "FIRST_NAME",
+            "initS" : "主"
+        },
+        {
+            "string" : "LAST_NAME",
+            "initS" : "人公"
+        },
+        {
+            "string" : "FIRST_PERSON"
+        },
+        {
+            "int" : "AGE",
+            "initI" : 21
+        },
+        {
+            "int" : "NUM"
+        },
+        {
+            "bool" : "isVirgin",
+            "initB" : true
+        },
+        {
+            "bool" : "isFlag"
+        }
+    ],
+    "defaultMessageColor" : {
+        "red" : 0.1,
+        "green" : 0.1,
+        "blue" : 0.1
+    },
+    "defaultMessageColorSet" : "全てのColorを持つ構造体にはColorSetも用意されており、SwiftUI側の名前で指定できるが、Colorが指定されている場合それに上書きされる",
+    "defaultMessageWindowColor" : {
+        "red" : 0.5,
+        "green" : 0.5,
+        "blue" : 0.5
+    },
+    "defaultMessageWindowsColorSet" : "無視される",
+    "defaultMessageWindowsImageUrl" : "メッセージウィンドウに画像を使用し、インターネットから取得する場合ここで指定する。この場合、色情報は無視される。Nameが指定されておらず、取得できなかった場合はエラーとなる",
+    "defaultMessageWindowsImageName" : "メッセージウィンドウに画像を使用し、アセット内から取得する場合ここで指定する。この場合、色情報は無視される。URLが指定されている場合、取得可能な場合はURLから取得し、不可能な場合にアセット内から取得を試みる。",
+    "image" : [
+        {
+            "id" : "sampleFace1",
+            "url" : "画像ファイルの置いてあるURL"
+        },
+        {
+            "id" : "SampleFace2",
+            "name" : "アセット内に配置した場合のファイル名"
+        },
+        {
+            "id" : "sampleTachie1",
+            "url" : "画像ファイルの置いてあるURL"
+        },
+        {
+            "id" : "sampleTachie12",
+            "name" : "アセット内に配置した場合のファイル名"
+        },
+        {
+            "id" : "background1",
+            "url" : "画像ファイルの置いてあるURL"
+        },
+        {
+            "id" : "background2",
+            "name" : "アセット内に配置した場合のファイル名"
+        },
+        {
+            "id" : "background3",
+            "url" : "優先される",
+            "name" : "バックアップ"
+        }
+    ],
+    "BGM" : [
+        {
+            "id" : "BGM1",
+            "url" : "優先",
+            "name" : "二の次"
+        }
+    ],
+    "SE" : [
+        {
+            "id" : "SE1",
+            "url" : "優先",
+            "name" : "二の次"
+        }
+    ]
+}

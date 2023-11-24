@@ -1,0 +1,12 @@
+{
+    "StoryDataLink" : "URLでStoryDaqtaのファイルを指定するならここに記述",
+    "StoryData" : [
+        {
+            "hint" : "定義ファイルに直接記述する場合ここに直書き(非推奨)"
+        }
+    ],
+    "CommonSettingLink" : "URLでCommonSettingふのファイルを指定するならここに記述",
+    "CommonSetting" : {
+        "hint" : "定義ファイルに直接記述する場合ここに直書き(非推奨)"
+    }
+}
