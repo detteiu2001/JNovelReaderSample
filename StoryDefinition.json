@@ -1,11 +1,13 @@
 {
-    "StoryDataLink" : "URLでStoryDaqtaのファイルを指定するならここに記述",
+    "StoryDataLinkHint" : "URLでStoryDataのファイルを指定するならここに記述",
+    "StoryDataLink" : "https://github.com/detteiu2001/JNovelReaderSample/blob/main/StoryData.json",
     "StoryData" : [
         {
             "hint" : "定義ファイルに直接記述する場合ここに直書き(非推奨)"
         }
     ],
-    "CommonSettingLink" : "URLでCommonSettingふのファイルを指定するならここに記述",
+    "CommonSettingLinkHint" : "URLでCommonSettingふのファイルを指定するならここに記述",
+    "CommonSettingLink" : "https://github.com/detteiu2001/JNovelReaderSample/blob/main/CommonSetting.json",
     "CommonSetting" : {
         "hint" : "定義ファイルに直接記述する場合ここに直書き(非推奨)"
     }
