@@ -65,7 +65,7 @@
     "image" : [
         {
             "id" : "sampleFace1",
-            "url" : "画像ファイルの置いてあるURL"
+            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/aka_face.png"
         },
         {
             "id" : "SampleFace2",
@@ -74,7 +74,7 @@
         },
         {
             "id" : "sampleTachie1",
-            "url" : "画像ファイルの置いてあるURL"
+            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/aka.png"
         },
         {
             "id" : "sampleTachie12",
@@ -83,7 +83,7 @@
         },
         {
             "id" : "background1",
-            "url" : "画像ファイルの置いてあるURL"
+            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/haikei1.png"
         },
         {
             "id" : "background2",
@@ -92,7 +92,7 @@
         },
         {
             "id" : "background3",
-            "url" : "優先される",
+            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/haikei3.png",
             "name" : "バックアップ"
         }
     ],
