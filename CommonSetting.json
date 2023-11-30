@@ -83,7 +83,7 @@
         },
         {
             "id" : "background1",
-            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/haikei1.png"
+            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/haikei4.png"
         },
         {
             "id" : "background2",
@@ -92,7 +92,7 @@
         },
         {
             "id" : "background3",
-            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/haikei3.png",
+            "url" : "https://raw.githubusercontent.com/detteiu2001/JNovelReaderSample/main/images/haikei5.png",
             "name" : "バックアップ"
         }
     ],
