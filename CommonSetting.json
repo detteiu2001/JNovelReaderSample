@@ -34,11 +34,11 @@
             "string" : "FIRST_PERSON"
         },
         {
-            "int" : "AGE",
-            "initI" : 21
+            "double" : "AGE",
+            "initD" : 21
         },
         {
-            "int" : "NUM"
+            "double" : "NUM"
         },
         {
             "bool" : "isVirgin",
