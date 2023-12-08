@@ -49,9 +49,9 @@
         }
     ],
     "defaultMessageColor" : {
-        "red" : 0.1,
-        "green" : 0.1,
-        "blue" : 0.1
+        "red" : 0.9,
+        "green" : 0.9,
+        "blue" : 0.9
     },
     "defaultMessageColorSet" : "全てのColorを持つ構造体にはColorSetも用意されており、SwiftUI側の名前で指定できるが、Colorが指定されている場合それに上書きされる",
     "defaultMessageWindowColor" : {
